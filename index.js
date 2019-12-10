@@ -15,7 +15,15 @@ var isIniciado = false;
 var jogador1 = "";
 var jogador2 = "";
 var matriz = {
-  a1: { marcado: false, jogador: "" }
+  a1: { marcado: false, jogador: "" },
+  a2: { marcado: false, jogador: "" },
+  a3: { marcado: false, jogador: "" },
+  b1: { marcado: false, jogador: "" },
+  b2: { marcado: false, jogador: "" },
+  b3: { marcado: false, jogador: "" },
+  c1: { marcado: false, jogador: "" },
+  c2: { marcado: false, jogador: "" },
+  c3: { marcado: false, jogador: "" },
 };
 
 app.get("/statusMatriz", function(req, res) {
